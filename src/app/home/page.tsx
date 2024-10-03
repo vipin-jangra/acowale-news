@@ -42,7 +42,6 @@ const Main: React.FC = () => {
         setTopHeadlines(res.data.articles);
       } catch (error: unknown) {
         console.error("Error fetching top headlines:", error);
-        message.error("Failed to fetch top headlines");
       } finally {
         setLoadingTopHeadlines(false); 
       }

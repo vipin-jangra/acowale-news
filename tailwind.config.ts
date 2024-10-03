@@ -1,8 +1,8 @@
 import type { Config } from "tailwindcss";
-import preline from 'preline/plugin';
+
 
 const config: Config = {
-  darkMode: 'class',
+  
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -17,8 +17,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [
-    preline,
-  ],
+
 };
 export default config;
